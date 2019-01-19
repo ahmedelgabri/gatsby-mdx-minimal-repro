@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.0",
+    "@mapbox/rehype-prism": "^0.3.0",
+    "gatsby": "^2.0.91",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
@@ -30,8 +31,8 @@
   "devDependencies": {
     "@mdx-js/mdx": "^0.16.6",
     "@mdx-js/tag": "^0.16.6",
-    "gatsby-mdx": "^0.3.3",
-    "gatsby-source-filesystem": "^2.0.1",
+    "gatsby-mdx": "^0.3.5",
+    "gatsby-source-filesystem": "^2.0.16",
     "husky": "^1.1.0",
     "lint-staged": "^8.1.0",
     "prettier": "^1.14.3"

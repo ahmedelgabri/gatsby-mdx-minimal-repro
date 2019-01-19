@@ -1,3 +1,5 @@
+const prism = require('@mapbox/rehype-prism')
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
@@ -7,7 +9,7 @@ module.exports = {
       resolve: 'gatsby-mdx',
       options: {
         mdPlugins: [],
-        hastPlugins: [],
+        hastPlugins: [[prism, { ignoreMissing: true }]],
         gatsbyRemarkPlugins: [],
       },
     },
